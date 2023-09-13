@@ -8,6 +8,8 @@ function loop() {
             console.log("FizzBiff");
         } else if (i % 7 === 0 && i % 5 === 0) {
             console.log("BuzzBiff");
+        } else if (i % 11 === 0) {
+            console.log("Bizz");
         } else if (i % 9 === 0) {
             console.log("Fizz");
         } else if (i % 7 === 0) {
